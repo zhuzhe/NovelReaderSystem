@@ -1,0 +1,9 @@
+
+<%= h question.content %><%= link_to_function "expand" do |page|
+	page.visual_effect :toggle_blind,dom_id(question)
+end
+	 %>
+	
+<% div_for question do%>
+	<%= question.answer %>
+<% end -%>

@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyText
+  writer: MyString
+  url: MyString
+  click_count: 1
+  download_count: 1
+
+two:
+  name: MyText
+  writer: MyString
+  url: MyString
+  click_count: 1
+  download_count: 1

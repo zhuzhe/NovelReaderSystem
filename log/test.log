@@ -1,0 +1,254 @@
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing NovelsController#destroy (for 0.0.0.0 at 2010-06-11 00:49:32) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/novels
+Completed in 4ms (DB: 0) | 302 Found [http://test.host/novels/37]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing NovelsController#destroy (for 0.0.0.0 at 2010-06-11 00:49:32) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/novels
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/novels/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing NovelsController#update (for 0.0.0.0 at 2010-06-11 00:49:32) [PUT]
+  Parameters: {"id"=>"37", "novel"=>{"these"=>"params"}}
+Rendering template within layouts/novels
+Rendering novels/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/novels/37?novel%5Bthese%5D=params]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing NovelsController#update (for 0.0.0.0 at 2010-06-11 00:49:32) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/novels
+Rendering novels/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/novels/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing NovelsController#update (for 0.0.0.0 at 2010-06-11 00:49:32) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/novels
+Rendering novels/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/novels/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing NovelsController#update (for 0.0.0.0 at 2010-06-11 00:49:32) [PUT]
+  Parameters: {"id"=>"37", "novel"=>{"these"=>"params"}}
+Rendering template within layouts/novels
+Rendering novels/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/novels/37?novel%5Bthese%5D=params]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing NovelsController#update (for 0.0.0.0 at 2010-06-11 00:49:32) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/novels/1007
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/novels/1]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing NovelsController#update (for 0.0.0.0 at 2010-06-11 00:49:32) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/novels/1008
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/novels/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing NovelsController#create (for 0.0.0.0 at 2010-06-11 00:49:32) [POST]
+  Parameters: {"novel"=>{"these"=>"params"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing NovelsController#create (for 0.0.0.0 at 2010-06-11 00:49:32) [POST]
+  Parameters: {"novel"=>{}}
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing NovelsController#create (for 0.0.0.0 at 2010-06-11 00:49:32) [POST]
+  Parameters: {"novel"=>{"these"=>"params"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing NovelsController#create (for 0.0.0.0 at 2010-06-11 00:49:32) [POST]
+  Parameters: {"novel"=>{}}
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing NovelsController#edit (for 0.0.0.0 at 2010-06-11 00:49:32) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/novels
+Rendering novels/edit
+Completed in 1ms (View: 0, DB: 1) | 200 OK [http://test.host/novels/37/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing NovelsController#new (for 0.0.0.0 at 2010-06-11 00:49:32) [GET]
+Rendering template within layouts/novels
+Rendering novels/new
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/novels/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing NovelsController#show (for 0.0.0.0 at 2010-06-11 00:49:32) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/novels
+Rendering novels/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/novels/37]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing NovelsController#index (for 0.0.0.0 at 2010-06-11 00:49:32) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mNovel Columns (32.9ms)[0m   [0mSHOW FIELDS FROM `novels`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mNovel Create (0.3ms)[0m   [0mINSERT INTO `novels` (`name`, `writer`, `created_at`, `updated_at`, `url`, `click_count`, `download_count`, `category_id`) VALUES(NULL, NULL, '2010-06-10 16:49:32', '2010-06-10 16:49:32', NULL, 0, 0, NULL)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mBEGIN[0m
+Rendering novels/new.html.erb
+  [4;35;1mCategory Load (0.5ms)[0m   [0mSELECT * FROM `categories` [0m
+  [4;36;1mTag Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `tags`[0m
+Rendered novels/_tag (5.1ms)
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+Rendering novels/edit.html.erb
+  [4;35;1mTag Load (0.4ms)[0m   [0mSELECT * FROM `tags` WHERE (`tags`.novel_id = 1018) [0m
+Rendered novels/_tag (1.0ms)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+Rendering novels/index.html.erb
+Rendered novels/_novel (0.9ms)
+Rendered novels/_novel (0.4ms)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+Rendering novels/show.html.erb
+  [4;36;1mTag Load (0.3ms)[0m   [0;1mSELECT * FROM `tags` WHERE (`tags`.novel_id = 1021) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mNovel Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `novels`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mNovel Create (0.3ms)[0m   [0mINSERT INTO `novels` (`name`, `writer`, `created_at`, `updated_at`, `url`, `click_count`, `download_count`, `category_id`) VALUES(NULL, NULL, '2010-06-10 16:51:05', '2010-06-10 16:51:05', NULL, 0, 0, NULL)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mNovel Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `novels`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mNovel Create (0.3ms)[0m   [0mINSERT INTO `novels` (`name`, `writer`, `created_at`, `updated_at`, `url`, `click_count`, `download_count`, `category_id`) VALUES(NULL, NULL, '2010-06-10 16:52:04', '2010-06-10 16:52:04', NULL, 0, 0, NULL)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mNovel Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `novels`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mNovel Create (0.3ms)[0m   [0mINSERT INTO `novels` (`name`, `writer`, `created_at`, `updated_at`, `url`, `click_count`, `download_count`, `category_id`) VALUES(NULL, NULL, '2010-06-10 16:53:23', '2010-06-10 16:53:23', NULL, 0, 0, NULL)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mNovel Columns (88.3ms)[0m   [0mSHOW FIELDS FROM `novels`[0m
+  [4;36;1mCategory Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `categories`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCategory Create (0.3ms)[0m   [0;1mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES('english novel', '2010-06-13 15:44:36', '2010-06-13 15:44:36')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mNovel Create (0.2ms)[0m   [0mINSERT INTO `novels` (`name`, `writer`, `created_at`, `updated_at`, `url`, `click_count`, `download_count`, `category_id`) VALUES('black and white', 'Belen', '2010-06-13 15:44:36', '2010-06-13 15:44:36', 'path to this novel', 0, 0, 2)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-06-13 23:44:36) [GET]
+  [4;35;1mCategory Load (0.3ms)[0m   [0mSELECT * FROM `categories` [0m
+Rendering welcome/index
+Rendered share/_header (23.8ms)
+Rendered welcome/_category (0.6ms)
+Completed in 32ms (View: 28, DB: 91) | 200 OK [http://www.example.com/]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mNovel Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `novels`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mNovel Create (0.3ms)[0m   [0mINSERT INTO `novels` (`name`, `writer`, `created_at`, `updated_at`, `url`, `click_count`, `download_count`, `category_id`) VALUES('black and white', 'Belen', '2010-06-13 15:54:32', '2010-06-13 15:54:32', 'path to this novel', 0, 0, NULL)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mNovel Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `novels`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mNovel Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `novels`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m

@@ -1,0 +1,9 @@
+
+
+<%for novel in @novels%>
+<p>
+  <%=link_to(novel.name,novel)%>
+  <%=link_to('delete',cancel_collected_novel_path(novel),:method=>:post)%>
+</p>
+
+<%end%>

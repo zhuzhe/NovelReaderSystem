@@ -1,0 +1,38 @@
+<p>
+  <b>Name:</b>
+  <%=h @novel.name %>
+</p>
+
+<p>
+  <b>Writer:</b>
+  <%=h @novel.writer %>
+</p>
+<%= label_tag :tags,'Tags' %><br>
+<%for tag in @novel.tags%>
+  <%=h " "+tag.name%> |
+  <%end%>
+  <p>
+  <b>read:</b>
+  <%=link_to 'collect novel',collect_novel_path(@novel),:method=>:post%>
+</p>
+<p>
+  <b>read:</b>
+  <%=link_to '点击阅读',read_novel_path(@novel)%>
+</p>
+<p>
+  <b>download:</b>
+  <%=link_to '点击下载',download_novel_path(@novel),:method=>:post%>
+</p>
+
+<p>
+  <b>Click count:</b>
+  <%=h @novel.click_count %>
+</p>
+
+<p>
+  <b>Download count:</b>
+  <%=h @novel.download_count %>
+</p>
+<div id="comments_div">
+	<%= render :partial => "comment" %>
+</div>	

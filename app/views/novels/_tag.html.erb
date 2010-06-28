@@ -1,0 +1,17 @@
+
+
+<div class="tag">
+  <%if tag.new_record?%>
+   <%new_or_existing='new'%>
+    <%else%>
+  <%new_or_existing='existing'%>
+    
+  <%end%>
+  <%prefix ="novel[#{new_or_existing}_tag_attributes][]"%>
+  <%fields_for prefix,tag do |tag_form|%>
+  <p>
+    tag:<%=tag_form.text_field :name%>
+    <%=link_to_function 'remove',"$(this).up('.tag').remove()"%>
+  </p>
+  <%end%>
+</div>

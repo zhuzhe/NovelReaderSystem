@@ -1,0 +1,13 @@
+<h1>Listing chapters</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+  </tr>
+
+<% @chapters.each do |chapter| %>
+  <tr>
+    <td><%=link_to chapter.name,chapter %></td>
+  </tr>
+<% end %>
+</table>

@@ -1,0 +1,20 @@
+
+
+<div id="header_div">
+	welcome read excellent novels<br>
+  <%=link_to 'home',root_path%>
+  <%=link_to '注册',new_account_path%><br>
+  <%if !session[:account_id].nil?%>
+  <%=link_to 'account',account_path(session[:account_id])%>|
+  <%=link_to 'your novels',collected_novels_path%>|
+  <%=link_to 'logout',session_path,:method=>:delete%>
+  <%else%>
+  <%=link_to 'login',new_session_path%>
+  <%end%>
+  <%form_tag(search_novels_path,:method=>"get") do%>
+    <%=label_tag(:key,"关键字")%>
+    <%=text_field_tag(:key)%>
+    <%=select_tag(:condition,options_for_select([['书名','name'],['作者','writer'],['标签','tag']]))%>
+    <%=submit_tag "搜索"%>
+  <%end%>
+</div>

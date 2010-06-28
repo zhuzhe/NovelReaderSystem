@@ -1,0 +1,25 @@
+<h1>Editing account</h1>
+<%=button_to '修改密码',change_password_adminaccount_path(@account.id),:method=>:get%>
+<% form_for(@account,:url=>adminaccount_path(@account)) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+ 
+  <p>
+    <%= f.label :email %><br />
+    <%= f.text_field :email %>
+  </p>
+  <p>
+    <%= f.label :group %>
+    <%= f.collection_select(:group_id, Group.all,:id,:name) %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', adminaccount_path(@account) %> |
+<%= link_to 'Back', adminaccounts_path %>
